@@ -1,4 +1,9 @@
 *.py[cod]
+Lib/
+Scripts/
+Include/
+.metadata/
+
 
 # C extensions
 *.so
@@ -31,5 +36,3 @@ nosetests.xml
 
 # Mr Developer
 .mr.developer.cfg
-.project
-.pydevproject
