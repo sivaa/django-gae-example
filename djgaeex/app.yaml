@@ -12,10 +12,10 @@ builtins:
 - django_wsgi: on
 
 handlers:
-- url: /media
-  static_dir: media
+- url: /static/admin
+  static_dir: static/admin
   expiration: '0'
 
-  
+ 
 env_variables:
   DJANGO_SETTINGS_MODULE: 'djgaeex.settings'
